@@ -64,6 +64,19 @@ li:hover {
         transform: scale(1.2);
     }
 }
+/* footer */
+footer {
+    float: left;
+    margin-bottom: 0;
+    margin-left: 100px;
+    width: calc(100% - 120px);
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    background-image: url("images/background.jpg");
+    background-position: bottom;
+    font-size: 75%;
+}
 /*body*/
 body {
     background-image: url("images/background.jpg");

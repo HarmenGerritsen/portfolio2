@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2149d60a-7d4a-4abb-ac8e-88c43603d2fe" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="1e254571-adb4-4784-b0e8-028de31f16aa" />
+  <component name="ProjectId" id="1hXa6tbzttZuTfxdvFRCVIaJpym" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2149d60a-7d4a-4abb-ac8e-88c43603d2fe" name="Default Changelist" comment="" />
+      <created>1600159718809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600159718809</updated>
+      <workItem from="1600159719838" duration="2966000" />
+      <workItem from="1600243373926" duration="2607000" />
+      <workItem from="1600277456341" duration="20000" />
+      <workItem from="1600327547231" duration="4292000" />
+      <workItem from="1600347622214" duration="4465000" />
+      <workItem from="1600354356689" duration="749000" />
+      <workItem from="1600355290772" duration="75000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit 1">
+      <created>1600244387309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600244387309</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit 2">
+      <created>1600251146331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600251146331</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit 3 animations added">
+      <created>1600329935717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600329935717</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit 3 updated animations, added 404 page">
+      <created>1600331840762</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600331840762</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit 4 404 page added">
+      <created>1600352086999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600352086999</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit 1" />
+    <MESSAGE value="commit 2" />
+    <MESSAGE value="commit 3 animations added" />
+    <MESSAGE value="commit 3 updated animations, added 404 page" />
+    <MESSAGE value="commit 4 404 page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 4 404 page added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600159826470">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600159826470" />
+    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600331224134">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600331224134" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1600352086350">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600352086350" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600355104489">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600355104489" />
+    <state x="647" y="310" key="Github.ShareDialog" timestamp="1600161137733">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1600161137733" />
+    <state x="588" y="117" key="Github.UntrackedFilesDialog" timestamp="1600161143514">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="588" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600161143514" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600352089641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600352089641" />
+  </component>
+</project>

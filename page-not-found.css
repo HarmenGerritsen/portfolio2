@@ -1,0 +1,70 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1 {
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: Consolas, monospace;
+    background-color: #fef100;
+    padding: 30px;
+    animation-name: danger;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+    font-size: 500%;
+    border-radius: 40px;
+}
+#back-button {
+    font-size: 30%;
+    text-decoration: none;
+    color: black;
+}
+@keyframes danger {
+    0% {
+        background-color: #fef100;
+        color: #d93434;
+    }
+    30% {
+        background-color: #000000;
+        color: #fef100;
+    }
+    60% {
+        background-color: #68b1af;
+        color: black;
+    }
+    100% {
+        background-color: #d93434;
+        color: #68b1af;
+    }
+ }
+#hidden {
+    text-decoration: underline;
+    color: #ffffff;
+}
+#hidden:hover {
+    color: #000000;
+    visibility: hidden;
+}
+body {
+    animation-name: background;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+}
+@keyframes background {
+    0% {
+        background-color: #000000;
+    }
+    30% {
+        background-color: #68b1af;
+    }
+    60% {
+        background-color: #d93434;
+    }
+    100% {
+        background-color: #fef100;
+    }
+ }

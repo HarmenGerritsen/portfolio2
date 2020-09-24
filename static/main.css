@@ -1,0 +1,95 @@
+/*Title*/
+h1 {
+    float: right;
+    margin: calc(0.3 * 100vh) 20% calc(0.3 * 100vh) 20%;
+    color: #1d1d1d;
+    -webkit-text-stroke: 1px #393939;
+}
+/*continue button*/
+#continue {
+    color: #1d1d1d;
+    text-decoration: none;
+    float: right;
+    margin: 25% -60%;
+    font-size: 300%;
+}
+#continue:hover {
+    transform: scale(1.2);
+}
+/* Text */
+.text {
+    width: auto;
+    height: auto;
+    opacity: 80%;
+    margin: 300px 200px 0;
+    padding: 0;
+    float: right;
+    line-height: 30px;
+    background-color: transparent;
+}
+.navbar {
+    height: 100vh;
+    width: 8%;
+    background-color: #818181;
+    float: left;
+    position: fixed;
+    padding-top: 50px;
+    top: 0;
+    box-shadow: -8px 0 9px 10px rgba(0,0,0,1);
+}
+#text-2 {
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+/*images*/
+img {
+    float: left;
+    margin-right: 20px;
+}
+/*menu sidebar*/
+ul {
+    list-style-type: none;
+}
+li {
+    text-align: left;
+    margin: 10px 10px 10px -20px;
+}
+.menu {
+    text-decoration: none;
+    color: black;
+}
+li:hover {
+    animation-name: hover;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+@keyframes hover {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+/* footer */
+footer {
+    float: left;
+    margin-bottom: 0;
+    margin-left: 100px;
+    width: calc(100% - 120px);
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    background-image: url(https://i.ibb.co/nsZ3Fj2/background.jpg);
+    background-position: bottom;
+    font-size: 75%;
+}
+/*body*/
+body {
+    background-image: url(https://i.ibb.co/nsZ3Fj2/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin: 0;
+    position: absolute;
+    font-family: Consolas, monospace;
+}

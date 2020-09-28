@@ -16,11 +16,11 @@
 ul {
     list-style-type: none;
 }
-li {
+.list-1 {
     text-align: left;
     margin: 10px 10px 10px -20px;
 }
-li:hover {
+.list-1:hover {
     animation-name: hover;
     animation-duration: 300ms;
     animation-fill-mode: forwards;
@@ -33,11 +33,61 @@ li:hover {
         transform: scale(1.2);
     }
 }
+
+/*contactlist*/
+ol {
+    margin-left: 15%;
+    margin-top: 7%;
+    list-style-type: none;
+}
+.list-contact {
+    margin: 0 auto 4%;
+    font-size: 350%;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    animation-name: link;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+.list-image:hover {
+    animation-name: image;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+@keyframes link {
+    0% {
+        color: #585858;
+        font-size: 100%;
+    }
+    100% {
+        color: #585858;
+        font-size: 120%;
+    }
+}
+@keyframes image {
+    0% {
+        width: 4%;
+        height: 4%;
+    }
+    100% {
+        width: 5%;
+        height: 5%;
+    }
+}
+#list-title {
+    font-size: 500%;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
 /* footer */
 footer {
     float: bottom;
-    margin: 100vh 0 0 100px;
-    width: calc(100% - 120px);
+    margin: 50vh 0 0 8%;
+    width: 90.7%;
     height: auto;
     text-align: center;
     padding: 10px;

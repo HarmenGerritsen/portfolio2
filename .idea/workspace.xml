@@ -22,20 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2149d60a-7d4a-4abb-ac8e-88c43603d2fe" name="Default Changelist" comment="commit 6 better frontpage, contactpage is being added">
-      <change afterPath="$PROJECT_DIR$/static/email.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pigeon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/post.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/whatsapp.png" afterDir="false" />
+    <list default="true" id="2149d60a-7d4a-4abb-ac8e-88c43603d2fe" name="Default Changelist" comment="commit 7 changed to webstorm">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,16 +71,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AaRdApPeLkLaPpEr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\hgerr\PycharmProjects\portfolio\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Unknown.Flask382784348">
+  <component name="RunManager" selected="Python.app">
     <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfolio/templates/main.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -136,17 +127,23 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Flask server.Flask" />
       <item itemvalue="JavaScript Debug.page-not-found.html" />
       <item itemvalue="JavaScript Debug.test.html" />
       <item itemvalue="JavaScript Debug.main.html" />
+      <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="JavaScript Debug.main.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\hgerr\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2149d60a-7d4a-4abb-ac8e-88c43603d2fe" name="Default Changelist" comment="" />
@@ -171,6 +168,8 @@
       <workItem from="1600952343811" duration="119000" />
       <workItem from="1600952491306" duration="10003000" />
       <workItem from="1601276305833" duration="176000" />
+      <workItem from="1601276740306" duration="946000" />
+      <workItem from="1601277877337" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1600244387309</created>
@@ -221,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600953902399</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit 7 changed to webstorm">
+      <created>1601276981346</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601276981346</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +255,8 @@
     <MESSAGE value="commit 5 added footer" />
     <MESSAGE value="commit 5 Flask added" />
     <MESSAGE value="commit 6 better frontpage, contactpage is being added" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 6 better frontpage, contactpage is being added" />
+    <MESSAGE value="commit 7 changed to webstorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 7 changed to webstorm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1600419473832">
@@ -260,10 +267,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600414993216" />
-    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600331224134">
+    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601279718971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600331224134" />
+    <state x="532" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1601279718971" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600952407810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -272,10 +279,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600420307591" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600419886964">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1601276961409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600419886964" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601276961409" />
     <state x="647" y="310" key="Github.ShareDialog" timestamp="1600355807502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -284,22 +291,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="588" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600355815419" />
-    <state width="1493" height="117" key="GridCell.Tab.0.bottom" timestamp="1600962503918">
+    <state width="1493" height="117" key="GridCell.Tab.0.bottom" timestamp="1601280128730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600962503918" />
-    <state width="1493" height="117" key="GridCell.Tab.0.center" timestamp="1600962503918">
+    <state width="1493" height="117" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601280128730" />
+    <state width="1493" height="117" key="GridCell.Tab.0.center" timestamp="1601280128729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600962503918" />
-    <state width="1493" height="117" key="GridCell.Tab.0.left" timestamp="1600962503918">
+    <state width="1493" height="117" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601280128729" />
+    <state width="1493" height="117" key="GridCell.Tab.0.left" timestamp="1601280128729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600962503918" />
-    <state width="1493" height="117" key="GridCell.Tab.0.right" timestamp="1600962503918">
+    <state width="1493" height="117" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601280128729" />
+    <state width="1493" height="117" key="GridCell.Tab.0.right" timestamp="1601280128730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="117" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600962503918" />
+    <state width="1493" height="117" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601280128730" />
     <state width="1493" height="39" key="GridCell.Tab.1.bottom" timestamp="1600962502634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -332,20 +339,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="39" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1600962502634" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1601276438369">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1601277085514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601276438369" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600352089641">
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601277085514" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601276989185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600352089641" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601276989185" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600355772043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600355772043" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/portfolio$app.coverage" NAME="app Coverage Results" MODIFIED="1600962383942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/portfolio$app.coverage" NAME="app Coverage Results" MODIFIED="1601277888219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

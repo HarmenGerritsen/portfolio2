@@ -1,1 +1,1 @@
-web: gunicorn mb_project.wsgi --log-file
+web: python app:app.py

@@ -1,17 +1,25 @@
 /*Title*/
 h1 {
-    float: right;
-    margin: calc(0.3 * 100vh) 20% calc(0.3 * 100vh) 20%;
+    margin-top: calc(0.3 * 100vh);
     color: #1d1d1d;
     -webkit-text-stroke: 1px #393939;
+    font-size: 600%;
+    display: block;
+    text-align: center;
+}
+header {
+    display: block;
+    height: 100vh;
+    width: auto;
 }
 /*continue button*/
 #continue {
     color: #1d1d1d;
     text-decoration: none;
-    float: right;
-    margin: 25% -60%;
+    margin-top: 10%;
     font-size: 300%;
+    text-align: center;
+    display: block;
 }
 #continue:hover {
     transform: scale(1.2);
@@ -21,22 +29,20 @@ h1 {
     width: auto;
     height: auto;
     opacity: 80%;
-    margin: 300px 200px 0;
+    margin: 0px 5% 0 15%;
     padding: 0;
     float: right;
-    line-height: 30px;
+    line-height: 40px;
     background-color: transparent;
+    font-size: 200%;
+    display: block;
+    align-content: center;
 }
-.navbar {
-    height: 100vh;
-    width: 8%;
-    background-color: #818181;
-    float: left;
-    position: fixed;
-    padding-top: 50px;
-    top: 0;
-    box-shadow: -8px 0 9px 10px rgba(0,0,0,1);
+a {
+    text-decoration: underline;
+    color: black;
 }
+
 #text-2 {
     margin-bottom: 200px;
     margin-top: 100px;
@@ -47,8 +53,21 @@ img {
     margin-right: 20px;
 }
 /*menu sidebar*/
+.navbar {
+    height: 100%;
+    width: 120px;
+    background-color: #818181;
+    float: left;
+    position: fixed;
+    padding-top: 50px;
+    top: 0;
+    box-shadow: -8px 0 9px 10px rgba(0,0,0,1);
+    display: block;
+}
 ul {
     list-style-type: none;
+    position: fixed;
+    font-size: 90%;
 }
 li {
     text-align: left;
@@ -75,8 +94,8 @@ li:hover {
 footer {
     float: left;
     margin-bottom: 0;
-    margin-left: 8%;
-    width: 90.7%;
+    margin-left: 120px;
+    width: 90.8%;
     height: auto;
     text-align: center;
     padding: 10px;
@@ -92,4 +111,26 @@ body {
     margin: 0;
     position: absolute;
     font-family: Consolas, monospace;
+}
+@media only screen and (max-width: 1380px) {
+    h1 {
+        font-size: 400%;
+        margin-top: calc(0.2 * 100vh);
+    }
+}
+@media only screen and (max-width: 900px) {
+    h1 {
+        margin-top: calc(0.1 * 100vh);
+    }
+    .navbar {
+        display: none;
+    }
+    body {
+        background-size: 900px auto;
+        background-repeat: no-repeat;
+    }
+    footer {
+        margin-left: 0;
+        width: 100%;
+    }
 }

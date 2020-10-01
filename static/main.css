@@ -1,4 +1,5 @@
-/*Title*/
+/*Title & continue button*/
+
 h1 {
     margin-top: calc(0.3 * 100vh);
     color: #1d1d1d;
@@ -12,7 +13,6 @@ header {
     height: 100vh;
     width: auto;
 }
-/*continue button*/
 #continue {
     color: #1d1d1d;
     text-decoration: none;
@@ -24,35 +24,32 @@ header {
 #continue:hover {
     transform: scale(1.2);
 }
+
 /* Text */
+
 .text {
     width: auto;
     height: auto;
     opacity: 80%;
-    margin: 0px 5% 0 15%;
+    margin: 0px 5% 200px 15%;
     padding: 0;
     float: right;
     line-height: 40px;
     background-color: transparent;
     font-size: 200%;
     display: block;
-    align-content: center;
 }
 a {
     text-decoration: underline;
     color: black;
 }
-
-#text-2 {
-    margin-bottom: 200px;
-    margin-top: 100px;
-}
-/*images*/
 img {
     float: left;
     margin-right: 20px;
 }
+
 /*menu sidebar*/
+
 .navbar {
     height: 100%;
     width: 120px;
@@ -90,20 +87,25 @@ li:hover {
         transform: scale(1.2);
     }
 }
+
 /* footer */
+
 footer {
-    float: left;
     margin-bottom: 0;
     margin-left: 120px;
     width: 90.8%;
-    height: auto;
+    height: 20px;
     text-align: center;
     padding: 10px;
     background-image: url(https://i.ibb.co/nsZ3Fj2/background.jpg);
-    background-position: bottom;
+    background-position: center;
     font-size: 75%;
+    display: block;
+    float: left;
 }
+
 /*body*/
+
 body {
     background-image: url(https://i.ibb.co/nsZ3Fj2/background.jpg);
     background-repeat: no-repeat;
@@ -132,5 +134,8 @@ body {
     footer {
         margin-left: 0;
         width: 100%;
+    }
+    img {
+        margin-right: auto;
     }
 }

@@ -1,12 +1,11 @@
 /*Title & continue button*/
-
 h1 {
     margin-top: calc(0.3 * 100vh);
     color: #1d1d1d;
-    -webkit-text-stroke: 1px #393939;
-    font-size: 600%;
+    font-size: 400%;
     display: block;
     text-align: center;
+    font-stretch: ultra-condensed;
 }
 header {
     display: block;
@@ -114,6 +113,8 @@ body {
     position: absolute;
     font-family: Consolas, monospace;
 }
+/*media*/
+
 @media only screen and (max-width: 1380px) {
     h1 {
         font-size: 400%;

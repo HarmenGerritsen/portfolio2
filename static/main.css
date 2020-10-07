@@ -1,10 +1,14 @@
 /*Title & continue button*/
 h1 {
-    margin-top: calc(0.3 * 100vh);
-    color: #1d1d1d;
-    font-size: 600%;
+    margin-top: calc(0.2 * 100vh);
+    color: #ffffff;
+    font-size: 200%;
     display: block;
     text-align: center;
+}
+#title {
+    font-size: 600%;
+    font-family: 'Nova Square', cursive;
 }
 header {
     display: block;
@@ -12,15 +16,21 @@ header {
     width: auto;
 }
 #continue {
-    color: #1d1d1d;
+    color: #000000;
     text-decoration: none;
     margin-top: 10%;
-    font-size: 300%;
+    font-size: 200%;
     text-align: center;
     display: block;
+    background-image: linear-gradient(to top right, rgb(197, 98, 87), rgb(250, 155, 144));
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 1%;
 }
 #continue:hover {
-    transform: scale(1.2);
+    color: rgb(255, 255, 255);
 }
 
 /*fade*/
@@ -39,34 +49,34 @@ header {
     width: auto;
     height: auto;
     opacity: 90%;
-    margin: 0px 5% 200px 15%;
+    margin: 0px 20% 200px 20%;
     padding: 0;
     float: right;
     line-height: 40px;
     background-color: transparent;
     font-size: 200%;
     display: block;
+    text-align: center;
 }
 a {
     text-decoration: underline;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
-img {
-    float: left;
-    margin-right: 20px;
+a:hover {
+    color: salmon;
 }
+
 
 /*menu sidebar*/
 
 .navbar {
     height: 100%;
     width: 120px;
-    background-image: linear-gradient(to right,#eeeeee,#ffffff);
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.13));
     float: left;
     position: fixed;
     padding-top: 50px;
     top: 0;
-    display: block;
 }
 ul {
     list-style-type: none;
@@ -78,7 +88,10 @@ li {
 }
 .menu {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+}
+.menu:hover {
+    color: salmon;
 }
 li:hover {
     animation-name: hover;
@@ -97,30 +110,19 @@ li:hover {
 /* footer */
 
 footer {
-    margin-bottom: 0;
-    margin-left: 120px;
-    width: 90.7%;
-    height: 20px;
     text-align: center;
-    padding: 10px;
-    background-color: white;
-    background-position: bottom;
     font-size: 75%;
     display: block;
-    float: left;
-    margin-top: 50vh;
+    margin: 200vh auto 10px auto;
 }
 
 /*body*/
 
 body {
-    background-color: rgb(60, 170, 214);
-    background-image: url(https://i.ibb.co/nsZ3Fj2/background.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-image: linear-gradient(to top right, rgb(30, 30, 39), rgb(58, 76, 121));
     margin: 0;
-    position: absolute;
     font-family: Consolas, monospace;
+    color: white;
 }
 /*media*/
 

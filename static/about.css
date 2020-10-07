@@ -12,15 +12,15 @@ table {
     width: 80%;
 }
 th {
-    background-color: #c2c2c2;
+    background-color: #f7f7f7;
     padding: 20px;
 }
 td {
-    background-color: #d0d0d0;
+    background-color: #ffffff;
     padding: 20px;
 }
 td:hover {
-    background-color: #cacaca;
+    background-color: #f7f7f7;
 }
 
 /*menu sidebar*/
@@ -28,22 +28,20 @@ td:hover {
 .navbar {
     height: 100%;
     width: 120px;
-    background-color: #818181;
+    background-image: linear-gradient(to right,#eeeeee,#ffffff);
     float: left;
     position: fixed;
     padding-top: 50px;
     top: 0;
-    box-shadow: -8px 0 9px 10px rgba(0,0,0,1);
     display: block;
 }
 ul {
     list-style-type: none;
     position: fixed;
-    font-size: 90%;
+    margin-left: -1%;
 }
 li {
     text-align: left;
-    margin: 10px 10px 10px -20px;
 }
 .menu {
     text-decoration: none;
@@ -68,21 +66,24 @@ li:hover {
 footer {
     margin-bottom: 0;
     margin-left: 120px;
-    margin-top: 100vh;
-    width: 90.8%;
+    width: 90.7%;
     height: 20px;
     text-align: center;
     padding: 10px;
-    background-image: url(https://i.ibb.co/nsZ3Fj2/background.jpg);
+    background-color: white;
     background-position: bottom;
     font-size: 75%;
     display: block;
+    float: left;
+    margin-top: 50vh;
 }
 
 /*body*/
 
 body {
     margin: 0;
+    background-image: linear-gradient(65deg, rgb(60, 109, 214), rgb(60, 170, 214) ,rgb(60, 204, 214));
+    background-color: #dce2e9;
     font-family: Consolas, monospace;
 }
 @media only screen and (max-width: 900px) {

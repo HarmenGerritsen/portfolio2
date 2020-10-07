@@ -34,7 +34,7 @@ ol {
 
 /*menu sidebar*/
 
-#navbar {
+.navbar {
     height: 100%;
     width: 120px;
     background-image: linear-gradient(to right,#eeeeee,#ffffff);

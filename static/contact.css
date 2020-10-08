@@ -112,15 +112,11 @@ li:hover {
 /* footer */
 
 footer {
-    margin-bottom: 0;
-    height: 20px;
     text-align: center;
-    padding: 10px;
-    font-size: 75%;
+    font-size: 1vw;
     display: block;
-    margin-top: 100vh;
-    margin-right: auto;
-    margin-left: auto;
+    position: sticky;
+    margin: 0 35vw 3vh 35vw;
 }
 
 /*body*/

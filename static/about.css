@@ -1,50 +1,51 @@
 h2 {
-    font-size: 500%;
+    font-size: 4vw;
     font-weight: bold;
     margin-bottom: 100px;
-    margin-top: 7%;
+    margin-top: 10vh;
     display: block;
     text-align: center;
 }
 h3 {
     display: block;
     text-align: center;
-    font-size: 200%;
+    font-size: 2vw;
     margin-top: 5%;
 }
 /*CV Table*/
 table {
-    margin-left: 15%;
-    width: 80%;
+    margin-left: 12vw;
+    width: 80vw;
     color: black;
 }
 .info-title {
     background-color: #ffffff;
-    padding: 1%;
+    padding: 1vw;
     text-align: center;
-    width: 60%;
+    width: 60vw;
 }
 .info-title:hover {
     background-color: #f7f7f7;
 }
 .tab {
     font-weight: bold;
-    width: 20%;
+    width: 10vw;
     background-color: white;
     text-align: center;
     vertical-align: top;
     padding: 20px;
 }
 .tab, .info-title {
-    font-size: 120%;
+    font-size: 1vw;
 }
 .info {
     border: none;
-    padding: 2%;
+    padding: 1.5vw;
     text-align: left;
-    width: 80%;
+    width: 80vw;
     background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.788), rgba(255, 255, 255, 0.253));
     column-span: 0;
+    font-size: 1vw;
 }
 a {
     color: black;
@@ -57,17 +58,19 @@ a:hover {
 
 .navbar {
     height: 100%;
-    width: 120px;
+    width: 7vw;
     background-image: linear-gradient(to right,rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.13));
     float: left;
     position: fixed;
-    padding-top: 50px;
+    padding-top: 1vw;
     top: 0;
 }
 ul {
     list-style-type: none;
     position: fixed;
-    margin-left: -1%;
+    font-size: 1vw;
+    margin-left: -1.5vw;
+    margin-right: auto;
 }
 li {
     text-align: left;
@@ -96,15 +99,11 @@ li:hover {
 /* footer */
 
 footer {
-    margin-bottom: 0;
-    height: 20px;
     text-align: center;
-    padding: 10px;
-    font-size: 75%;
+    font-size: 1vw;
     display: block;
-    margin-top: 100vh;
-    margin-right: auto;
-    margin-left: auto;
+    position: sticky;
+    margin: 10vh 35vw 3vh 35vw;
 }
 
 /*body*/

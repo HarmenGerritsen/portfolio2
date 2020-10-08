@@ -5,16 +5,35 @@ h1 {
     font-size: 3vw;
     display: block;
     text-align: center;
+    text-shadow: 0 3px 0.5px rgba(0,0,0,.1),
+                 0 0 2.5px rgba(0,0,0,.1),
+                 0 0.5px 1.5px rgba(0,0,0,.3),
+                 0 1.5px 2.5px rgba(0,0,0,.2),
+                 0 2.5px 5px rgba(0,0,0,.25),
+                 0 5px 5px rgba(0,0,0,.2),
+                 0 10px 10px rgba(0,0,0,.15);
 }
 #title {
     font-size: 11vw;
     font-family: 'Nova Square', cursive;
     margin-left: auto;
     margin-right: auto;
+    text-shadow: 0 1px 0 #ccc, 
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
 }
 header {
     display: block;
-    height: 100vh;
+    height: auto;
     width: auto;
 }
 span {
@@ -32,6 +51,18 @@ span:hover {
 }
 #buttons span {
     background-image: linear-gradient(to top right, rgb(197, 98, 87), rgb(250, 155, 144));
+    box-shadow: 0 1px 0 rgb(197, 99, 88), 
+                 0 2px 0 rgb(197, 101, 90),
+                 0 3px 0 rgb(197, 103, 92),
+                 0 4px 0 rgb(197, 105, 94),
+                 0 5px 0 rgb(197, 107, 96),
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
 }
 a {
     text-decoration: none;
@@ -48,16 +79,12 @@ a {
 /* Text */
 
 .text {
-    width: auto;
-    height: auto;
-    opacity: 90%;
-    margin: -30vh auto 40vh auto;
     padding: 0 20vw 0 20vw;
-    float: right;
-    background-color: transparent;
     font-size: 2vw;
     display: block;
     text-align: center;
+    margin-top: 10vh;
+    padding-bottom: 50vh;
 }
 #contact-link {
     text-decoration: underline;
@@ -116,13 +143,19 @@ li:hover {
 footer {
     text-align: center;
     font-size: 1vw;
-    display: block;
-    position: sticky;
-    margin: 0 35vw 0 35vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 1vh;
 }
 
 /*body*/
 
+#page-container {
+    position: relative;
+    min-height: auto;
+}
 body {
     background-image: linear-gradient(to top right, rgb(30, 30, 39), rgb(58, 76, 121));
     background-repeat: no-repeat;
@@ -132,8 +165,17 @@ body {
 }
 /*media*/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     .navbar {
         display: none;
     }
+    .text {
+        font-size: 3vw;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    #title {
+        font-size: 15vw;
+    } 
 }

@@ -9,6 +9,12 @@ h1 {
 #title {
     font-size: 600%;
     font-family: 'Nova Square', cursive;
+    background-image: -webkit-linear-gradient(to top right, rgb(30, 30, 39), rgb(58, 76, 121));
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0, 0, 0, 0);
+    -webkit-background-clip: text;
 }
 header {
     display: block;

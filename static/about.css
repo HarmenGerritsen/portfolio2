@@ -6,22 +6,51 @@ h2 {
     display: block;
     text-align: center;
 }
+h3 {
+    display: block;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 5%;
+}
 /*CV Table*/
 table {
     margin-left: 15%;
     width: 80%;
     color: black;
 }
-th {
-    background-color: #f7f7f7;
-    padding: 20px;
-}
-td {
+.info-title {
     background-color: #ffffff;
+    padding: 1%;
+    text-align: center;
+    width: 60%;
+}
+.info-title:hover {
+    background-color: #f7f7f7;
+}
+.tab {
+    font-weight: bold;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
     padding: 20px;
 }
-td:hover {
-    background-color: #f7f7f7;
+.tab, .info-title {
+    font-size: 120%;
+}
+.info {
+    border: none;
+    padding: 2%;
+    text-align: left;
+    width: 80%;
+    background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.788), rgba(255, 255, 255, 0.253));
+    column-span: 0;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: salmon;
 }
 
 /*menu sidebar*/

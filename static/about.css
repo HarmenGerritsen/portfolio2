@@ -44,6 +44,16 @@ table {
     padding: 1vw;
     border-top-left-radius: 25px;
 }
+.tab1 {
+    font-weight: bold;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
+    padding: 1vw;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
 .tab, .info-title {
     font-size: 1vw;
 }
@@ -88,11 +98,12 @@ a:hover {
     border-radius: 25px;
 }
 .navbutton:hover {
-    background-color: rgb(74, 74, 83);
+    background-color: rgb(87, 87, 87);
     color: rgb(255, 255, 255);
 }
 #highlight {
-    background-color: rgb(197, 98, 87);
+    background-color: transparent;
+    background-image: linear-gradient(to top right, rgb(77, 77, 77), rgb(163, 163, 163));
 }
 #left-button {
     margin-left: 38vw;
@@ -132,11 +143,15 @@ footer {
     position: relative;
 }
 body {
-    background-image: linear-gradient(to top right, rgb(30, 30, 39), rgb(58, 76, 121));
+    background: #eef2f3;
+    background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab); 
+    background-repeat: no-repeat;
     margin: 0;
     font-family: Consolas, monospace;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
 @media only screen and (max-width: 600px) {
     .navbar {
         display: none;

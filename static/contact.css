@@ -11,7 +11,7 @@ ol {
 }
 .link {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .list-contact:hover {
     animation-name: link;
@@ -55,7 +55,6 @@ ol {
    width: 70vw;
    margin-left: auto; 
    margin-right: auto;
-   opacity: 1;
    padding: 5%;
 }
 input, textarea {
@@ -69,19 +68,21 @@ input:focus, textarea:focus {
 }
 #submit {
     width: auto;
+    padding: 1vw;
     display: block;
     margin: 1% auto 10vh auto;
-    background-image: linear-gradient(to top right, rgb(197, 98, 87), rgb(250, 155, 144));
+    background-image: linear-gradient(to top right, rgb(20, 20, 20), rgb(63, 63, 63));
     font-family: Consolas, monospace;
     border-radius: 25px;
     font-size: 2vw;
     border: none;
-    color: black;
-    box-shadow: 0 1px 0 rgb(197, 99, 88), 
-                 0 2px 0 rgb(197, 101, 90),
-                 0 3px 0 rgb(197, 103, 92),
-                 0 4px 0 rgb(197, 105, 94),
-                 0 5px 0 rgb(197, 107, 96),
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 1px 0 #131313, 
+                 0 2px 0 #111111,
+                 0 3px 0 #090909,
+                 0 4px 0 #070707,
+                 0 5px 0 #050505,
                  0 6px 1px rgba(0,0,0,.1),
                  0 0 5px rgba(0,0,0,.1),
                  0 1px 3px rgba(0,0,0,.3),
@@ -91,7 +92,7 @@ input:focus, textarea:focus {
                  0 20px 20px rgba(0,0,0,.15);
 }
 #submit:hover {
-    color: white;
+    color: rgb(189, 189, 189);
 }
 
 /*nav top*/
@@ -117,11 +118,12 @@ input:focus, textarea:focus {
     border-radius: 25px;
 }
 .navbutton:hover {
-    background-color: rgb(74, 74, 83);
+    background-color: rgb(87, 87, 87);
     color: rgb(255, 255, 255);
 }
 #highlight {
-    background-color: rgb(197, 98, 87);
+    background-color: transparent;
+    background-image: linear-gradient(to top right, rgb(77, 77, 77), rgb(163, 163, 163));
 }
 #left-button {
     margin-left: 38vw;
@@ -163,11 +165,15 @@ footer {
     min-height: auto;
 }
 body {
-    background-image: linear-gradient(to top right, rgb(30, 30, 39), rgb(58, 76, 121));
+    background: #eef2f3;
+    background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab); 
+    background-repeat: no-repeat;
     margin: 0;
     font-family: Consolas, monospace;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+
 @media only screen and (max-width: 1200px) {    
     #mail {
         font-size: 75%;

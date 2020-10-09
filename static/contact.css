@@ -174,38 +174,8 @@ body {
     color: rgb(0, 0, 0);
 }
 
-@media only screen and (max-width: 1200px) {    
-    #mail {
-        font-size: 75%;
-    }
-}
-@media only screen and (max-width: 930px) {
-    .navbar {
-        display: none;
-    }
-    body {
-        background-size: 930px auto;
-        background-repeat: no-repeat;
-    }
-    footer {
-        margin-left: 0;
-        width: 125%;
-        margin-bottom: 0;
-        margin-top: 50vh;
-    }
-    img {
+@media only screen and (max-width: 800px) {
+    #navtop {
         display: none;
     }
 }
-@media only screen and (max-width: 600px) {
-    .list-contact {
-        font-size: 200%;
-        margin-right: 0;
-    }
-}
-@media only screen and (max-width: 600px) {
-    #form-title {
-        font-size: 200%;
-    }
-}
-

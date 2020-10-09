@@ -54,7 +54,7 @@ table {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-.tab, .info-title {
+.tab1, .tab, .info-title {
     font-size: 1vw;
 }
 .info {

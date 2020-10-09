@@ -1,6 +1,7 @@
 from flask import Flask, render_template
+from flask_cors import CORS
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/')
 def hello():
@@ -17,14 +18,8 @@ def contact():
     return render_template("contact.html")
 
 
-@app.route('/form')
-def form():
-    return render_template("form.html")
-
-
 @app.errorhandler(404)
 def page_not_found(e):
-    # note that we set the 404 status explicitly
     return render_template('page-not-found.html'), 404
 
 

@@ -94,45 +94,55 @@ input:focus, textarea:focus {
     color: white;
 }
 
-/*menu sidebar*/
+/*nav top*/
 
-.navbar {
-    height: 100%;
-    width: 7vw;
-    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.13));
-    position: fixed;
+#navtop {
+    width: 100%;
+    height: 7vh;
     top: 0;
+    position: fixed;
+    background-color: rgb(39, 39, 44);
 }
-ul {
-    list-style-type: none;
+.navbutton {
     font-size: 1vw;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-}
-.list-1 {
-    text-align: left;
-}
-.menu {
+    width: 10vw;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    float: left;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0);
+    padding: 0.5vw 0;
+    margin: 1vh 1vw;
+    height: 3vh;
+    border-radius: 25px;
+}
+.navbutton:hover {
+    background-color: rgb(74, 74, 83);
     color: rgb(255, 255, 255);
 }
-.menu:hover {
-    color: salmon;
+#highlight {
+    background-color: rgb(197, 98, 87);
 }
-.list-1:hover {
-    animation-name: hover;
-    animation-duration: 300ms;
-    animation-fill-mode: forwards;
+#left-button {
+    margin-left: 38vw;
 }
-@keyframes hover {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.2);
-    }
+#navtitle {
+    font-size: 1.8vw;
+    float: left;
+    text-align: center;
+    padding: 0.5vw 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2vw;
+    height: auto;
+    width: 20vw;
+    text-decoration: none;
+    color: white;
 }
+#navtitle:hover {
+    color: rgb(255, 255, 255);
+}
+
 
 /* footer */
 

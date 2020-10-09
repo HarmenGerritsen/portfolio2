@@ -15,7 +15,7 @@ h1 {
 }
 #title {
     font-size: 11vw;
-    font-family: 'Nova Square', cursive;
+    font-family: Avant Garde, sans-serif;
     margin-left: auto;
     margin-right: auto;
     text-shadow: 0 1px 0 #ccc, 
@@ -41,6 +41,9 @@ span {
     color: black;
     border-radius: 1vw;
     font-size: 2vw;
+}
+span:active {
+    font-size: 1.6vw;
 }
 span:hover {
     color: white;

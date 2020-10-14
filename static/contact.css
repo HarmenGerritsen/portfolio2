@@ -1,3 +1,13 @@
+/*Flash Message*/
+
+#flash {
+    position: absolute;
+    font-size: 5vh;
+    display: block;
+    padding: 0.5vh 0.5vw;
+    margin: 0.5vh 70vw;
+    list-style-type: none;
+}
 
 /*contactlist*/
 ol {
